@@ -16,13 +16,13 @@ export default function Home() {
   return (
     <div>
       <Header title="Titulo" description="desc"></Header>
-      <Title>BATATA</Title> 
+      <Title>Title</Title> 
       <Square/> 
-      <Button onClick={() => alert('Never Gonna Give You Up!')}>CLICA EM EU</Button>
+      <Button onClick={() => alert('you clicked the button!')}>CLICA EM EU</Button>
       <ItemList items={itens}></ItemList>
-      <Image src={Nuggie} alt='PROIBIDO LER ESSE TEXTO, SUJEITO A PAULADA'></Image>
-      <Paragraph>Uma frase muito louca</Paragraph>
-      <Footer info="AAAAAAAAAAAAaa"></Footer>
+      <Image src={Nuggie} alt='Img Desc'></Image>
+      <Paragraph>Yay text</Paragraph>
+      <Footer info="Footer Info"></Footer>
       </div>
   );
 }
