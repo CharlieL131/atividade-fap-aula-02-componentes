@@ -18,7 +18,7 @@ export default function Home() {
       <Header title="Titulo" description="desc"></Header>
       <Title>Title</Title> 
       <Square/> 
-      <Button onClick={() => alert('you clicked the button!')}>CLICA EM EU</Button>
+      <Button onClick={() => alert('you clicked the button!')}>Click Me!</Button>
       <ItemList items={itens}></ItemList>
       <Image src={Nuggie} alt='Img Desc'></Image>
       <Paragraph>Yay text</Paragraph>
